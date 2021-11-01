@@ -6,9 +6,9 @@ const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
   'https://introweb.tech/assets/json/chocolateChip.json',
-  '/assets/recipes/recipe1.json',
-  '/assets/recipes/recipe2.json',
-  '/assets/recipes/recipe3.json'
+  'assets/recipes/recipe1.json',
+  'assets/recipes/recipe2.json',
+  'assets/recipes/recipe3.json'
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -94,8 +94,10 @@ function bindshowingMore() {
     if (showingMore) {
       showingMore = false;
       button.textContent = 'Show More';
-      for (let i = 0; i < 3; ++i) {
-        main.removeChild(main.lastChild);
+      
+      let recipe = document.querySelectorAll('recipe-card');
+      for (let i = 3; i < 6; i++) {
+        main.removeChild(recipe[i]);
       }
       
     } else {
@@ -104,7 +106,9 @@ function bindshowingMore() {
       button.textContent = "Show Less";
       let count = 0;
       for (const [key, value] of Object.entries(recipeData)) {
-        if (count < 3){
+        console.log('recipeData index ' + count);
+        console.log(value);
+        if (count >= 3){
           let card = document.createElement('recipe-card');
           card.data = value;
           main.appendChild(card);

@@ -1,141 +1,304 @@
 {
-	"@context":"http://schema.org",
-	"@type":"Recipe",
-	"articleBody":"From Amisha Dodhia Gurbani's debut cookbook, Mumbai Modern, this tart captures the flavors and flakiness of a samosa with none of the deep-frying, making it a party-ready appetizer that is as crowd-pleasing as it is low-lift. According to her, the Fontina layer is crucial: “Fontina’s a really wonderful cheese and quite underrated, in my opinion—and it goes so well with spicy flavors.” For an even faster turnaround, boil the potatoes the day before and keep them in the refrigerator until you’re ready to build the tart.",
-	"alternativeHeadline":"When you're not up for deep frying, bake a samosa's spiced potato filling into a buttery, flaky bed of puff pastry instead.",
-	"keywords":[
-	   "indian",
-	   "potato",
-	   "puff pastry dough",
-	   "appetizer",
-	   "cilantro",
-	   "web"
-	],
-	"thumbnailUrl":"https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/3:2/w_1998,h_1332,c_limit/Samosa-Tart.jpg",
-	"publisher":{
-	   "@context":"https://schema.org",
-	   "@type":"Organization",
-	   "name":"Bon Appétit",
-	   "logo":{
-		  "@type":"ImageObject",
-		  "url":"https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.328de564b950e3d5d1fbe3e42f065290ca1d3844.png",
-		  "width":"479px",
-		  "height":"100px"
+	"@context":"https://schema.org",
+	"@graph":[
+	   {
+		  "@type":"Organization",
+		  "@id":"https://www.acozykitchen.com/#organization",
+		  "name":"A Cozy Kitchen",
+		  "url":"https://www.acozykitchen.com/",
+		  "sameAs":[
+			 
+		  ],
+		  "logo":{
+			 "@type":"ImageObject",
+			 "@id":"https://www.acozykitchen.com/#logo",
+			 "inLanguage":"en-US",
+			 "url":"https://www.acozykitchen.com/wp-content/uploads/2017/01/ACK-Logo-color-01-e1483915658332.png",
+			 "contentUrl":"https://www.acozykitchen.com/wp-content/uploads/2017/01/ACK-Logo-color-01-e1483915658332.png",
+			 "width":1200,
+			 "height":412,
+			 "caption":"A Cozy Kitchen"
+		  },
+		  "image":{
+			 "@id":"https://www.acozykitchen.com/#logo"
+		  }
 	   },
-	   "url":"https://www.bonappetit.com"
-	},
-	"isPartOf":{
-	   "@type":"CreativeWork",
-	   "name":"Bon Appétit"
-	},
-	"isAccessibleForFree":true,
-	"author":[
+	   {
+		  "@type":"WebSite",
+		  "@id":"https://www.acozykitchen.com/#website",
+		  "url":"https://www.acozykitchen.com/",
+		  "name":"A Cozy Kitchen",
+		  "description":"Recipe blog by Adrianna Adarme",
+		  "publisher":{
+			 "@id":"https://www.acozykitchen.com/#organization"
+		  },
+		  "potentialAction":[
+			 {
+				"@type":"SearchAction",
+				"target":{
+				   "@type":"EntryPoint",
+				   "urlTemplate":"https://www.acozykitchen.com/?s={search_term_string}"
+				},
+				"query-input":"required name=search_term_string"
+			 }
+		  ],
+		  "inLanguage":"en-US"
+	   },
+	   {
+		  "@type":"ImageObject",
+		  "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#primaryimage",
+		  "inLanguage":"en-US",
+		  "url":"https://www.acozykitchen.com/wp-content/uploads/2011/12/ArrozconPollo-5.jpg",
+		  "contentUrl":"https://www.acozykitchen.com/wp-content/uploads/2011/12/ArrozconPollo-5.jpg",
+		  "width":1200,
+		  "height":1602
+	   },
+	   {
+		  "@type":"WebPage",
+		  "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#webpage",
+		  "url":"https://www.acozykitchen.com/dads-arroz-con-pollo",
+		  "name":"Arroz con Pollo - Chicken and Rice Recipe - A Cozy Kitchen",
+		  "isPartOf":{
+			 "@id":"https://www.acozykitchen.com/#website"
+		  },
+		  "primaryImageOfPage":{
+			 "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#primaryimage"
+		  },
+		  "datePublished":"2020-03-15T07:00:23+00:00",
+		  "dateModified":"2020-11-30T14:36:23+00:00",
+		  "description":"Arroz con Pollo is a comforting, one-pot meal from Latin America. This version is a family favorite and is a cross between paella and arroz con pollo.",
+		  "breadcrumb":{
+			 "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#breadcrumb"
+		  },
+		  "inLanguage":"en-US",
+		  "potentialAction":[
+			 {
+				"@type":"ReadAction",
+				"target":[
+				   "https://www.acozykitchen.com/dads-arroz-con-pollo"
+				]
+			 }
+		  ]
+	   },
+	   {
+		  "@type":"BreadcrumbList",
+		  "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#breadcrumb",
+		  "itemListElement":[
+			 {
+				"@type":"ListItem",
+				"position":1,
+				"name":"Home",
+				"item":"https://www.acozykitchen.com/"
+			 },
+			 {
+				"@type":"ListItem",
+				"position":2,
+				"name":"Dinner",
+				"item":"https://www.acozykitchen.com/category/dinner"
+			 },
+			 {
+				"@type":"ListItem",
+				"position":3,
+				"name":"Arroz con Pollo"
+			 }
+		  ]
+	   },
+	   {
+		  "@type":"Article",
+		  "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#article",
+		  "isPartOf":{
+			 "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#webpage"
+		  },
+		  "author":{
+			 "@id":"https://www.acozykitchen.com/#/schema/person/a65838c81f9473d692d4d219dcb1ff04"
+		  },
+		  "headline":"Arroz con Pollo",
+		  "datePublished":"2020-03-15T07:00:23+00:00",
+		  "dateModified":"2020-11-30T14:36:23+00:00",
+		  "wordCount":1325,
+		  "commentCount":87,
+		  "publisher":{
+			 "@id":"https://www.acozykitchen.com/#organization"
+		  },
+		  "image":{
+			 "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#primaryimage"
+		  },
+		  "thumbnailUrl":"https://www.acozykitchen.com/wp-content/uploads/2011/12/ArrozconPollo-5.jpg",
+		  "keywords":[
+			 "Arroz Con Pollo",
+			 "Chicken",
+			 "Cuban",
+			 "Dinner",
+			 "Paella",
+			 "Rice",
+			 "Saffron",
+			 "South American",
+			 "Spanish",
+			 "Tomatoes",
+			 "Valencia Rice"
+		  ],
+		  "articleSection":[
+			 "Comforting",
+			 "Dinner",
+			 "Latin",
+			 "One-Pot Meals"
+		  ],
+		  "inLanguage":"en-US",
+		  "potentialAction":[
+			 {
+				"@type":"CommentAction",
+				"name":"Comment",
+				"target":[
+				   "https://www.acozykitchen.com/dads-arroz-con-pollo#respond"
+				]
+			 }
+		  ]
+	   },
 	   {
 		  "@type":"Person",
-		  "name":"Amisha Dodhia Gurbani",
-		  "sameAs":"https://www.bonappetit.com/contributor/amisha-dodhia-gurbani"
+		  "@id":"https://www.acozykitchen.com/#/schema/person/a65838c81f9473d692d4d219dcb1ff04",
+		  "name":"Adrianna Adarme",
+		  "image":{
+			 "@type":"ImageObject",
+			 "@id":"https://www.acozykitchen.com/#personlogo",
+			 "inLanguage":"en-US",
+			 "url":"https://secure.gravatar.com/avatar/35355e7f4083f629e4ab9d32bc44b99a?s=96&d=mm&r=g",
+			 "contentUrl":"https://secure.gravatar.com/avatar/35355e7f4083f629e4ab9d32bc44b99a?s=96&d=mm&r=g",
+			 "caption":"Adrianna Adarme"
+		  },
+		  "description":"A Cozy Kitchen is a recipe blog written by Adrianna Adarme. Adrianna likes corgis, pancakes and cute things.",
+		  "sameAs":[
+			 "http://www.acozykitchen.com",
+			 "acozykitchen",
+			 "acozykitchen",
+			 "acozykitchen",
+			 "https://twitter.com/acozykitchen"
+		  ],
+		  "url":"https://www.acozykitchen.com/author/adrianna"
+	   },
+	   {
+		  "@context":"http://schema.org/",
+		  "@type":"Recipe",
+		  "name":"Arroz con Pollo Recipe",
+		  "author":{
+			 "@type":"Person",
+			 "name":"Adrianna Adarme"
+		  },
+		  "description":"Arroz con Pollo is a comforting, one-pot meal from Latin America. This version is a family favorite and is a cross between paella and arroz con pollo.",
+		  "datePublished":"2020-03-15T00:00:23+00:00",
+		  "image":[
+			 "https://www.acozykitchen.com/wp-content/uploads/2020/03/ArrozconPolloRecipe.jpg",
+			 "https://www.acozykitchen.com/wp-content/uploads/2020/03/ArrozconPolloRecipe-500x500.jpg",
+			 "https://www.acozykitchen.com/wp-content/uploads/2020/03/ArrozconPolloRecipe-500x375.jpg",
+			 "https://www.acozykitchen.com/wp-content/uploads/2020/03/ArrozconPolloRecipe-480x270.jpg"
+		  ],
+		  "recipeYield":[
+			 "6"
+		  ],
+		  "prepTime":"PT10M",
+		  "cookTime":"PT35M",
+		  "totalTime":"PT45M",
+		  "recipeIngredient":[
+			 "4  bone-in chicken thighs ((skin on))",
+			 "2  bone-in drumsticks ((skin on))",
+			 "Kosher salt",
+			 "1 tablespoon neutral oil  ((I like to use avocado oil) )",
+			 "1  yellow onion (peeled and diced)",
+			 "1/2  red bell pepper (peeled and minced)",
+			 "5  garlic cloves (peeled and minced)",
+			 "3  roma tomatoes (minced)",
+			 "2 teaspoons ground cumin",
+			 "1 teaspoon ground smoked paprika",
+			 "3/4 teaspoon turmeric powder",
+			 "1 teaspoon saffron",
+			 "1/4 teaspoon red pepper flakes",
+			 "2 cups medium grain rice  ((see below for more options) )",
+			 "4 cups chicken stock",
+			 "1 cup pitted green olives",
+			 "1/3 cup frozen peas"
+		  ],
+		  "recipeInstructions":[
+			 {
+				"@type":"HowToStep",
+				"text":"Sprinkle both sides of the chicken with salt",
+				"name":"Sprinkle both sides of the chicken with salt",
+				"url":"https://www.acozykitchen.com/dads-arroz-con-pollo#wprm-recipe-36815-step-0-0"
+			 },
+			 {
+				"@type":"HowToStep",
+				"text":"In a Dutch oven, heat oil over medium-high heat. When oil is hot, add chicken, skin side down, until browned, about 5 to 7 minutes. Flip the chicken, using tongs, and cook on opposite side until golden brown, about 5 minutes. Transfer to plate and set aside.",
+				"name":"In a Dutch oven, heat oil over medium-high heat. When oil is hot, add chicken, skin side down, until browned, about 5 to 7 minutes. Flip the chicken, using tongs, and cook on opposite side until golden brown, about 5 minutes. Transfer to plate and set aside.",
+				"url":"https://www.acozykitchen.com/dads-arroz-con-pollo#wprm-recipe-36815-step-0-1"
+			 },
+			 {
+				"@type":"HowToStep",
+				"text":"Reduce heat to medium, add onion and red bell pepper, and cook until translucent, about 7 minutes. Add garlic to the top of the onions and cook until fragrant; 2 minutes or so. Add the tomato and scrape the bottom of the pot removing any of the chicken fat pieces (hello! flavor!!). Next, add spices: cumin, paprika, turmeric, saffron, crushed red pepper and 1 1/2 teaspoons of kosher salt and mix.",
+				"name":"Reduce heat to medium, add onion and red bell pepper, and cook until translucent, about 7 minutes. Add garlic to the top of the onions and cook until fragrant; 2 minutes or so. Add the tomato and scrape the bottom of the pot removing any of the chicken fat pieces (hello! flavor!!). Next, add spices: cumin, paprika, turmeric, saffron, crushed red pepper and 1 1/2 teaspoons of kosher salt and mix.",
+				"url":"https://www.acozykitchen.com/dads-arroz-con-pollo#wprm-recipe-36815-step-0-2"
+			 },
+			 {
+				"@type":"HowToStep",
+				"text":"Pour in rice and give it a good mix, coating it with the tomato mixture. Cook for about a minute or so. Place chicken atop of rice mixture, and disperse the olives all around atop the rice.",
+				"name":"Pour in rice and give it a good mix, coating it with the tomato mixture. Cook for about a minute or so. Place chicken atop of rice mixture, and disperse the olives all around atop the rice.",
+				"url":"https://www.acozykitchen.com/dads-arroz-con-pollo#wprm-recipe-36815-step-0-3"
+			 },
+			 {
+				"@type":"HowToStep",
+				"text":"Pour just enough chicken stock to cover the rice, about 3 1/2 cups. Bring the pot to a simmer and then reduce heat to low. Cook, covered, for about 30 to 34 minutes, and until rice is tender.",
+				"name":"Pour just enough chicken stock to cover the rice, about 3 1/2 cups. Bring the pot to a simmer and then reduce heat to low. Cook, covered, for about 30 to 34 minutes, and until rice is tender.",
+				"url":"https://www.acozykitchen.com/dads-arroz-con-pollo#wprm-recipe-36815-step-0-4"
+			 },
+			 {
+				"@type":"HowToStep",
+				"text":"Note: Throughout the cooking process, I checked on it every 15 minutes or so and topped it off with about 1/4 cup of stock each time. In the end, I added 4 cups of chicken stock total. Also, in the last 15 minutes, I salted to taste, adding about 1/4 teaspoon more salt.",
+				"name":"Note: Throughout the cooking process, I checked on it every 15 minutes or so and topped it off with about 1/4 cup of stock each time. In the end, I added 4 cups of chicken stock total. Also, in the last 15 minutes, I salted to taste, adding about 1/4 teaspoon more salt.",
+				"url":"https://www.acozykitchen.com/dads-arroz-con-pollo#wprm-recipe-36815-step-0-5"
+			 },
+			 {
+				"@type":"HowToStep",
+				"text":"When it&#039;s ready, turn the heat off. Sprinkle the peas on top and cover with a lid for 2 minutes. Just until the peas are thawed and bright green. Serve immediately.",
+				"name":"When it&#039;s ready, turn the heat off. Sprinkle the peas on top and cover with a lid for 2 minutes. Just until the peas are thawed and bright green. Serve immediately.",
+				"url":"https://www.acozykitchen.com/dads-arroz-con-pollo#wprm-recipe-36815-step-0-6"
+			 },
+			 {
+				"@type":"HowToStep",
+				"text":"Leftovers: This stays good in the fridge for up to 3 days. It&#039;s great reheated in the microwave. You may need to add a splash of water to it to loosen it up right before the microwave!",
+				"name":"Leftovers: This stays good in the fridge for up to 3 days. It&#039;s great reheated in the microwave. You may need to add a splash of water to it to loosen it up right before the microwave!",
+				"url":"https://www.acozykitchen.com/dads-arroz-con-pollo#wprm-recipe-36815-step-0-7"
+			 }
+		  ],
+		  "aggregateRating":{
+			 "@type":"AggregateRating",
+			 "ratingValue":"5",
+			 "ratingCount":"19"
+		  },
+		  "recipeCategory":[
+			 "Dinner"
+		  ],
+		  "recipeCuisine":[
+			 "American",
+			 "Latin America",
+			 "Peruvian"
+		  ],
+		  "keywords":"arroz con pollo peruano, arroz con pollo receta, como hacer arroz con pollo, easy arroz con pollo",
+		  "nutrition":{
+			 "@type":"NutritionInformation",
+			 "carbohydrateContent":"12 g",
+			 "proteinContent":"2 g",
+			 "fatContent":"24 g",
+			 "saturatedFatContent":"7 g",
+			 "cholesterolContent":"21 mg",
+			 "sodiumContent":"56 mg",
+			 "fiberContent":"3 g",
+			 "sugarContent":"5 g",
+			 "calories":"256 kcal",
+			 "servingSize":"1 serving"
+		  },
+		  "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#recipe",
+		  "isPartOf":{
+			 "@id":"https://www.acozykitchen.com/dads-arroz-con-pollo#article"
+		  },
+		  "mainEntityOfPage":"https://www.acozykitchen.com/dads-arroz-con-pollo#webpage"
 	   }
-	],
-	"aggregateRating":{
-	   "@type":"AggregateRating",
-	   "ratingValue":4.8,
-	   "ratingCount":20
-	},
-	"description":"When you're not up for deep frying, bake a samosa's spiced potato filling into a buttery, flaky bed of puff pastry instead.",
-	"image":[
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/3:4/w_999,h_1332,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/4:5/w_932,h_1165,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/5:7/w_949,h_1329,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/6:9/w_887,h_1331,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/5:4/w_1664,h_1331,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/8:5/w_1999,h_1249,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/2:1/w_1999,h_999,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/16:9/w_1978,h_1113,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/4:3/w_1776,h_1332,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/1:1/w_1247,h_1247,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/2:3/w_888,h_1332,c_limit/Samosa-Tart.jpg",
-	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/3:2/w_1998,h_1332,c_limit/Samosa-Tart.jpg"
-	],
-	"headline":"Samosa Tart With Caramelized Onions and Fontina",
-	"name":"Samosa Tart With Caramelized Onions and Fontina",
-	"recipeIngredient":[
-	   "1 serrano chile or 2 green Thai chiles, seeds removed if desired",
-	   "2 garlic cloves",
-	   "2½ cups (packed) coarsely chopped cilantro leaves and stems",
-	   "½ cup (packed) mint leaves",
-	   "2 Tbsp. fresh lemon juice",
-	   "2 Tbsp. unsalted dry-roasted peanuts",
-	   "2 tsp. Diamond Crystal or 1 tsp. Morton kosher salt",
-	   "2 tsp. sugar",
-	   "1 tsp. cumin seeds",
-	   "2 medium Yukon Gold potatoes (about 12 oz.), scrubbed",
-	   "4 Tbsp. vegetable oil, divided",
-	   "1 small sweet onion, thinly sliced",
-	   "2 tsp. Diamond Crystal or 1 tsp. Morton kosher salt, divided",
-	   "½ tsp. coriander seeds",
-	   "½ tsp. fennel seeds",
-	   "1 green chile (such as jalapeño or green Thai chile), finely chopped",
-	   "1 1\" piece ginger, peeled, finely grated",
-	   "½ tsp. cumin seeds",
-	   "¼ cup thawed frozen peas",
-	   "½ tsp. amchur powder",
-	   "½ tsp. garam masala",
-	   "½ tsp. Kashmiri chile powder",
-	   "1 Tbsp. finely chopped cilantro",
-	   "½ tsp. fresh lemon juice",
-	   "½  tsp. sugar",
-	   "All-purpose flour (for dusting)",
-	   "1 sheet frozen puff pastry (one 14-oz. package or half of a 17.3-oz. package), thawed",
-	   "3 oz. Fontina cheese, coarsely grated (about ⅓ cup)",
-	   "1 Tbsp. heavy cream",
-	   "½ tsp. sugar",
-	   "¼ cup pomegranate seeds",
-	   "Cilantro leaves with tender stems, Cilantro-Mint Chutney (see recipe), and store-bought tamarind-date chutney (for serving)",
-	   "A spice mill or mortar and pestle"
-	],
-	"recipeInstructions":[
-	   {
-		  "@type":"HowToStep",
-		  "text":"Purée chile, garlic, cilantro, mint, lemon juice, peanuts, salt, sugar, cumin seeds, and ¼ cup water in a blender, scraping down sides as needed, until very smooth. Set cilantro-mint chutney aside.\nDo Ahead: Chutney can be made 1 day ahead. Transfer to a jar; cover and chill."
-	   },
-	   {
-		  "@type":"HowToStep",
-		  "text":"Pierce potatoes all over with a paring knife and place in a medium saucepan. Pour in cold water to cover by 1\". Bring to a boil and cook until potatoes are fork-tender, 18–20 minutes. Drain and let cool slightly. Rub off skins with paper towels; discard. Cut potatoes into ¼\" pieces."
-	   },
-	   {
-		  "@type":"HowToStep",
-		  "text":"Meanwhile, heat 2 Tbsp. oil in a large skillet over medium-low. Add onion and 1 tsp. Diamond Crystal or ½ tsp. Morton kosher salt and cook, stirring occasionally, until onion is soft and deeply browned, 10–12 minutes. Transfer to a bowl; reserve skillet."
-	   },
-	   {
-		  "@type":"HowToStep",
-		  "text":"Coarsely grind coriander seeds and fennel seeds in spice mill or mortar and pestle."
-	   },
-	   {
-		  "@type":"HowToStep",
-		  "text":"Heat remaining 2 Tbsp. oil in reserved skillet over medium. Add green chile, ginger, cumin seeds, and ground fennel and coriander. Cook, stirring, until fragrant, about 1 minute. Stir in potatoes and peas until well combined; cook 1 minute. Stir in amchur powder, garam masala, chile powder, and remaining 1 tsp. Diamond Crystal or ½ tsp. Morton kosher salt and cook, stirring occasionally, 2 minutes. Stir in cilantro, lemon juice, and sugar and cook, still stirring, another 2 minutes. Remove from heat."
-	   },
-	   {
-		  "@type":"HowToStep",
-		  "text":"Unfold puff pastry on a lightly floured surface and roll out to a 9½\"–10\" square. Transfer to a parchment-lined rimmed baking sheet."
-	   },
-	   {
-		  "@type":"HowToStep",
-		  "text":"Spread onion over pastry, leaving a 1\" border. Scatter Fontina over onion and press lightly with a spatula. Top with potato mixture; press to flatten."
-	   },
-	   {
-		  "@type":"HowToStep",
-		  "text":"Whisk together cream and sugar in a small bowl. Brush edges of tart with cream mixture. Freeze tart until pastry is firm, about 10 minutes."
-	   },
-	   {
-		  "@type":"HowToStep",
-		  "text":"Place a rack in middle of oven; preheat to 400°. Bake tart until crust is golden brown, 35–40 minutes. Let cool 10–15 minutes, then cut into squares."
-	   },
-	   {
-		  "@type":"HowToStep",
-		  "text":"To serve, scatter pomegranate seeds and cilantro over tart. Drizzle tamarind-date chutney and reserved cilantro-mint chutney on top and/or serve alongside.\nDo ahead: Tart can be assembled 1 day ahead. Wrap in plastic and freeze. Thaw 1 hour in fridge before baking."
-	   }
-	],
-	"url":"https://www.bonappetit.com/recipe/samosa-tart-with-caramelized-onions-and-fontina",
-	"dateModified":"2021-10-14T09:00:00.000-04:00",
-	"datePublished":"2021-10-14T09:00:00.000-04:00"
+	]
  }
