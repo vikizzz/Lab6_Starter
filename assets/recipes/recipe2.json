@@ -1,0 +1,178 @@
+{
+	"@context":"http://schema.org",
+	"@type":"Recipe",
+	"mainEntityOfPage":true,
+	"name":"Classic Shrimp Scampi",
+	"url":"https://www.foodnetwork.com/recipes/food-network-kitchen/classic-shrimp-scampi-8849846",
+	"headline":"Classic Shrimp Scampi",
+	"author":[
+	   {
+		  "@type":"Person",
+		  "name":"Food Network Kitchen",
+		  "url":"https://www.foodnetwork.com/profiles/talent/food-network-kitchen"
+	   }
+	],
+	"image":{
+	   "@type":"ImageObject",
+	   "url":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/07/16/0/FNM_090120-Classic-Shrimp-Scampi_s4x3.jpg.rend.hgtvcom.406.305.suffix/1594915956100.jpeg",
+	   "height":"406",
+	   "width":"305"
+	},
+	"datePublished":"2020-07-16T14:21:38.159-04:00",
+	"dateModified":"2020-07-16T14:21:37.435-04:00",
+	"publisher":{
+	   "@type":"Organization",
+	   "name":"Food Network",
+	   "url":"https://www.foodnetwork.com",
+	   "logo":{
+		  "@type":"ImageObject",
+		  "url":"https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+		  "height":"60",
+		  "width":"60"
+	   }
+	},
+	"keywords":"Shellfish Recipes,Shrimp,Main Dish",
+	"cookTime":"P0Y0M0DT0H30M0.000S",
+	"totalTime":"P0Y0M0DT0H30M0.000S",
+	"description":"America can\u2019t seem to get enough of shrimp scampi: It\u2019s one of the 10 most-searched recipes on FoodNetwork.com during the summer (more popular than burgers!) and #shrimpscampi has more than 134,000 posts on Instagram. What\u2019s the excitement all about? Do we love shrimp scampi because it\u2019s simple but seemingly fancy? Or because it\u2019s done in 30 minutes? Or because we just can\u2019t resist a buttery wine sauce? All of the above!",
+	"recipeIngredient":[
+	   "Kosher salt",
+	   "12 ounces linguine",
+	   "1 1/4 pounds large shrimp, peeled and deveined",
+	   "1/3 cup extra-virgin olive oil ",
+	   "5 cloves garlic, minced",
+	   "1/4 to 1/2 teaspoon red pepper flakes",
+	   "1/3 cup dry white wine",
+	   "Juice of 1/2 lemon, plus wedges for serving",
+	   "4 tablespoons unsalted butter, cut into pieces",
+	   "1/4 cup finely chopped fresh parsley"
+	],
+	"recipeInstructions":[
+	   {
+		  "@type":"HowToStep",
+		  "text":"Bring a large pot of salted water to a boil. Add the linguine and cook as the label directs. Reserve 1 cup cooking water, then drain."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Meanwhile, season the shrimp with salt. Heat the olive oil in a large skillet over medium-high heat. Add the garlic and red pepper flakes and cook until the garlic is just golden, 30 seconds to 1 minute. Add the shrimp and cook, stirring occasionally, until pink and just cooked through, 1 to 2 minutes per side. Remove the shrimp to a plate. Add the wine and lemon juice to the skillet and simmer until slightly reduced, 2 minutes. "
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Return the shrimp and any juices from the plate to the skillet along with the linguine, butter and 1/2 cup of the reserved cooking water. Continue to cook, tossing, until the butter is melted and the shrimp is hot, about 2 minutes, adding more of the reserved cooking water as needed. Season with salt; stir in the parsley. Serve with lemon wedges. "
+	   }
+	],
+	"aggregateRating":{
+	   "@type":"AggregateRating",
+	   "ratingValue":4.9,
+	   "reviewCount":18
+	},
+	"recipeYield":"4 servings",
+	"review":[
+	   {
+		  "@type":"Review",
+		  "author":{
+			 "@type":"Person",
+			 "name":"Anonymous"
+		  },
+		  "reviewRating":{
+			 "@type":"Rating",
+			 "ratingValue":4,
+			 "worstRating":"1",
+			 "bestRating":"5"
+		  },
+		  "reviewBody":"Great recipe but I typically make mine with 1T olive oil and 2T butter. As written it seems way too greasy. It\u2019s also delicious with a good loaf of warm sourdough or French bread, which makes an even quicker meal.",
+		  "datePublished":"2021-10-25"
+	   },
+	   {
+		  "@type":"Review",
+		  "author":{
+			 "@type":"Person",
+			 "name":"Sutton"
+		  },
+		  "reviewRating":{
+			 "@type":"Rating",
+			 "ratingValue":5,
+			 "worstRating":"1",
+			 "bestRating":"5"
+		  },
+		  "reviewBody":"Very well written recipe, I have found many recipes assume the reader knows how to cook. I have rewritten many for my sons. Dish was delicious.",
+		  "datePublished":"2021-10-10"
+	   },
+	   {
+		  "@type":"Review",
+		  "author":{
+			 "@type":"Person",
+			 "name":"Anonymous"
+		  },
+		  "reviewRating":{
+			 "@type":"Rating",
+			 "ratingValue":5,
+			 "worstRating":"1",
+			 "bestRating":"5"
+		  },
+		  "reviewBody":"Excellent. Garnish with fresh parmesan.",
+		  "datePublished":"2021-10-09"
+	   },
+	   {
+		  "@type":"Review",
+		  "author":{
+			 "@type":"Person",
+			 "name":"pcthebo"
+		  },
+		  "reviewRating":{
+			 "@type":"Rating",
+			 "ratingValue":5,
+			 "worstRating":"1",
+			 "bestRating":"5"
+		  },
+		  "reviewBody":"Very easy and well balanced flavors. Did add Andouille sausage but recipe does not need it. Excellent meal.",
+		  "datePublished":"2021-10-01"
+	   },
+	   {
+		  "@type":"Review",
+		  "author":{
+			 "@type":"Person",
+			 "name":"Anonymous"
+		  },
+		  "reviewRating":{
+			 "@type":"Rating",
+			 "ratingValue":5,
+			 "worstRating":"1",
+			 "bestRating":"5"
+		  },
+		  "reviewBody":"It was Friday night and hubby and I didn\u2019t have a dinner plan in place and the time was marching on. Needed something fast and easy.  Found this Classic Shrimp Scampi recipe and decided to try it out. Was delicious and simple to make. Made a couple of enhancements. After simmering the shrimp as instructed and removing from pan, I pulled the shells off and toasted the shells in the pan until nicely browned, then added the stock back in for a shrimp flavor bomb!  I also added the zest of the lemon I had squeezed to the sauce because - hey, who doesn\u2019t want more lemon flavor in this and it would be a crime to leave it behind.  I strained out the sediments, added sauce back to the pan and followed the recipe as written.  Oh yes, in case you run low on fettuccine like we were, I added Thai noodles to augment my starch. It gave the pasta water great flavor and you couldn\u2019t discern the difference between the noodles in the finished dish.  Was a good augment. We loved this dish and will make again!",
+		  "datePublished":"2021-08-07"
+	   },
+	   {
+		  "@type":"Review",
+		  "author":{
+			 "@type":"Person",
+			 "name":"Wanda Karoblis"
+		  },
+		  "reviewRating":{
+			 "@type":"Rating",
+			 "ratingValue":4,
+			 "worstRating":"1",
+			 "bestRating":"5"
+		  },
+		  "reviewBody":"Will make again!",
+		  "datePublished":"2021-07-30"
+	   },
+	   {
+		  "@type":"Review",
+		  "author":{
+			 "@type":"Person",
+			 "name":"Beverly F."
+		  },
+		  "reviewRating":{
+			 "@type":"Rating",
+			 "ratingValue":5,
+			 "worstRating":"1",
+			 "bestRating":"5"
+		  },
+		  "reviewBody":"Our family loves this. It has become one of our favorite meals.",
+		  "datePublished":"2021-06-04"
+	   }
+	],
+	"recipeCategory":"main-dish"
+ }

@@ -1,8 +1,11 @@
 class RecipeCard extends HTMLElement {
   constructor() {
     // Part 1 Expose - TODO
-
+    // Always call super first in constructor
+    super();
     // You'll want to attach the shadow DOM here
+    // Attch a shadow DOM to a custom element as part of its constructor
+    let shadow = this.attachShadow({mode: 'open'});
   }
 
   set data(data) {
@@ -100,6 +103,70 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
+    /*
+     create elements to mirror one of the elements in cardTemplate.html,
+     then fill in those elements with the data that you’ve passed to yourself, 
+     and attach those elements to each other so that they match the template, 
+     finally attaching the root element (and the styleElem) to the shadow dom 
+     that you created in the constructor() 
+     */
+
+    // recipe image
+    let img = document.createElement('img');
+    img.setAttribute('src', searchForKey(data, 'thumbnailUrl'));
+    card.appendChild(img);
+    
+    // title
+    let title = document.createElement('p');
+    title.setAttribute('class', 'title');
+    let title_link = document.createElement('a');
+    title_link.setAttribute('href', getUrl(data));
+    title_link.textContent =  searchForKey(data, 'headline');
+    title.append(title_link);
+    card.appendChild(title);
+
+    // organization
+    let org = document.createElement('p');
+    org.setAttribute('class', 'organization');
+    org.textContent = getOrganization(data);
+    card.appendChild(org);
+
+    // rating
+    let rate = document.createElement('div');
+    rate.setAttribute('class', 'rating');
+    let rate_value = document.createElement('span');
+    let ratingvalue = searchForKey(data, 'ratingValue');
+    if (ratingvalue) {
+      rate_value.textContent = ratingvalue;
+      let rate_image = document.createElement('img');
+      rate_image.setAttribute('src', 'assets/images/icons/'+Math.round(ratingvalue)+'-star.svg');
+      let rate_count = document.createElement('span');
+      rate_count.textContent = searchForKey(data, 'ratingCount');
+
+      rate.appendChild(rate_value);
+      rate.appendChild(rate_image);
+      rate.appendChild(rate_count);
+    } else{
+      rate_value.textContent = "No Reviews";
+      rate.appendChild(rate_value);
+    }
+    card.appendChild(rate);
+
+    // time
+    let time = document.createElement('time');
+    time.textContent = convertTime(searchForKey(data, 'totalTime'));
+    card.appendChild(time);
+
+    // ingredients
+    let ingredient = document.createElement('p');
+    ingredient.setAttribute('class', 'ingredients');
+    ingredient.textContent = createIngredientList(searchForKey(data, 'recipeIngredient'));
+    card.append(ingredient);
+
+
+    // Attach the styleElem to the shadow root along with the <article> elem,
+    this.shadowRoot.appendChild(styleElem);
+    this.shadowRoot.appendChild(card);
   }
 }
 

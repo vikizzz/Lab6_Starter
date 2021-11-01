@@ -1,0 +1,141 @@
+{
+	"@context":"http://schema.org",
+	"@type":"Recipe",
+	"articleBody":"From Amisha Dodhia Gurbani's debut cookbook, Mumbai Modern, this tart captures the flavors and flakiness of a samosa with none of the deep-frying, making it a party-ready appetizer that is as crowd-pleasing as it is low-lift. According to her, the Fontina layer is crucial: “Fontina’s a really wonderful cheese and quite underrated, in my opinion—and it goes so well with spicy flavors.” For an even faster turnaround, boil the potatoes the day before and keep them in the refrigerator until you’re ready to build the tart.",
+	"alternativeHeadline":"When you're not up for deep frying, bake a samosa's spiced potato filling into a buttery, flaky bed of puff pastry instead.",
+	"keywords":[
+	   "indian",
+	   "potato",
+	   "puff pastry dough",
+	   "appetizer",
+	   "cilantro",
+	   "web"
+	],
+	"thumbnailUrl":"https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/3:2/w_1998,h_1332,c_limit/Samosa-Tart.jpg",
+	"publisher":{
+	   "@context":"https://schema.org",
+	   "@type":"Organization",
+	   "name":"Bon Appétit",
+	   "logo":{
+		  "@type":"ImageObject",
+		  "url":"https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.328de564b950e3d5d1fbe3e42f065290ca1d3844.png",
+		  "width":"479px",
+		  "height":"100px"
+	   },
+	   "url":"https://www.bonappetit.com"
+	},
+	"isPartOf":{
+	   "@type":"CreativeWork",
+	   "name":"Bon Appétit"
+	},
+	"isAccessibleForFree":true,
+	"author":[
+	   {
+		  "@type":"Person",
+		  "name":"Amisha Dodhia Gurbani",
+		  "sameAs":"https://www.bonappetit.com/contributor/amisha-dodhia-gurbani"
+	   }
+	],
+	"aggregateRating":{
+	   "@type":"AggregateRating",
+	   "ratingValue":4.8,
+	   "ratingCount":20
+	},
+	"description":"When you're not up for deep frying, bake a samosa's spiced potato filling into a buttery, flaky bed of puff pastry instead.",
+	"image":[
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/3:4/w_999,h_1332,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/4:5/w_932,h_1165,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/5:7/w_949,h_1329,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/6:9/w_887,h_1331,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/5:4/w_1664,h_1331,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/8:5/w_1999,h_1249,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/2:1/w_1999,h_999,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/16:9/w_1978,h_1113,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/4:3/w_1776,h_1332,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/1:1/w_1247,h_1247,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/2:3/w_888,h_1332,c_limit/Samosa-Tart.jpg",
+	   "https://assets.bonappetit.com/photos/615dae9ba99b3f199e10ce4a/3:2/w_1998,h_1332,c_limit/Samosa-Tart.jpg"
+	],
+	"headline":"Samosa Tart With Caramelized Onions and Fontina",
+	"name":"Samosa Tart With Caramelized Onions and Fontina",
+	"recipeIngredient":[
+	   "1 serrano chile or 2 green Thai chiles, seeds removed if desired",
+	   "2 garlic cloves",
+	   "2½ cups (packed) coarsely chopped cilantro leaves and stems",
+	   "½ cup (packed) mint leaves",
+	   "2 Tbsp. fresh lemon juice",
+	   "2 Tbsp. unsalted dry-roasted peanuts",
+	   "2 tsp. Diamond Crystal or 1 tsp. Morton kosher salt",
+	   "2 tsp. sugar",
+	   "1 tsp. cumin seeds",
+	   "2 medium Yukon Gold potatoes (about 12 oz.), scrubbed",
+	   "4 Tbsp. vegetable oil, divided",
+	   "1 small sweet onion, thinly sliced",
+	   "2 tsp. Diamond Crystal or 1 tsp. Morton kosher salt, divided",
+	   "½ tsp. coriander seeds",
+	   "½ tsp. fennel seeds",
+	   "1 green chile (such as jalapeño or green Thai chile), finely chopped",
+	   "1 1\" piece ginger, peeled, finely grated",
+	   "½ tsp. cumin seeds",
+	   "¼ cup thawed frozen peas",
+	   "½ tsp. amchur powder",
+	   "½ tsp. garam masala",
+	   "½ tsp. Kashmiri chile powder",
+	   "1 Tbsp. finely chopped cilantro",
+	   "½ tsp. fresh lemon juice",
+	   "½  tsp. sugar",
+	   "All-purpose flour (for dusting)",
+	   "1 sheet frozen puff pastry (one 14-oz. package or half of a 17.3-oz. package), thawed",
+	   "3 oz. Fontina cheese, coarsely grated (about ⅓ cup)",
+	   "1 Tbsp. heavy cream",
+	   "½ tsp. sugar",
+	   "¼ cup pomegranate seeds",
+	   "Cilantro leaves with tender stems, Cilantro-Mint Chutney (see recipe), and store-bought tamarind-date chutney (for serving)",
+	   "A spice mill or mortar and pestle"
+	],
+	"recipeInstructions":[
+	   {
+		  "@type":"HowToStep",
+		  "text":"Purée chile, garlic, cilantro, mint, lemon juice, peanuts, salt, sugar, cumin seeds, and ¼ cup water in a blender, scraping down sides as needed, until very smooth. Set cilantro-mint chutney aside.\nDo Ahead: Chutney can be made 1 day ahead. Transfer to a jar; cover and chill."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Pierce potatoes all over with a paring knife and place in a medium saucepan. Pour in cold water to cover by 1\". Bring to a boil and cook until potatoes are fork-tender, 18–20 minutes. Drain and let cool slightly. Rub off skins with paper towels; discard. Cut potatoes into ¼\" pieces."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Meanwhile, heat 2 Tbsp. oil in a large skillet over medium-low. Add onion and 1 tsp. Diamond Crystal or ½ tsp. Morton kosher salt and cook, stirring occasionally, until onion is soft and deeply browned, 10–12 minutes. Transfer to a bowl; reserve skillet."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Coarsely grind coriander seeds and fennel seeds in spice mill or mortar and pestle."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Heat remaining 2 Tbsp. oil in reserved skillet over medium. Add green chile, ginger, cumin seeds, and ground fennel and coriander. Cook, stirring, until fragrant, about 1 minute. Stir in potatoes and peas until well combined; cook 1 minute. Stir in amchur powder, garam masala, chile powder, and remaining 1 tsp. Diamond Crystal or ½ tsp. Morton kosher salt and cook, stirring occasionally, 2 minutes. Stir in cilantro, lemon juice, and sugar and cook, still stirring, another 2 minutes. Remove from heat."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Unfold puff pastry on a lightly floured surface and roll out to a 9½\"–10\" square. Transfer to a parchment-lined rimmed baking sheet."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Spread onion over pastry, leaving a 1\" border. Scatter Fontina over onion and press lightly with a spatula. Top with potato mixture; press to flatten."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Whisk together cream and sugar in a small bowl. Brush edges of tart with cream mixture. Freeze tart until pastry is firm, about 10 minutes."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"Place a rack in middle of oven; preheat to 400°. Bake tart until crust is golden brown, 35–40 minutes. Let cool 10–15 minutes, then cut into squares."
+	   },
+	   {
+		  "@type":"HowToStep",
+		  "text":"To serve, scatter pomegranate seeds and cilantro over tart. Drizzle tamarind-date chutney and reserved cilantro-mint chutney on top and/or serve alongside.\nDo ahead: Tart can be assembled 1 day ahead. Wrap in plastic and freeze. Thaw 1 hour in fridge before baking."
+	   }
+	],
+	"url":"https://www.bonappetit.com/recipe/samosa-tart-with-caramelized-onions-and-fontina",
+	"dateModified":"2021-10-14T09:00:00.000-04:00",
+	"datePublished":"2021-10-14T09:00:00.000-04:00"
+ }
